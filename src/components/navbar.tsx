@@ -1,13 +1,16 @@
 import React, { useState } from "react";
-import { Menu, Item } from "./style";
+import { Menu, Item, AllITem } from "./style";
 import { Link } from "react-router-dom";
+
 function NavBar(){
-    const [algo, setalgo] = useState([])
+
+   
     return(
         <>
         <Menu>
-
-            <Item>
+            <img src="https://th.bing.com/th/id/OIP.ebBPNI9s-oZiXztIlK6PyAAAAA?rs=1&pid=ImgDetMain" alt="" />
+        <AllITem>
+        <Item>
                 <Link to="/">Home</Link>
                 
             </Item>
@@ -31,6 +34,9 @@ function NavBar(){
             <Link to="/">Login</Link>
                 
             </Item>
+
+        </AllITem>
+           
         </Menu>
         </>
     )
