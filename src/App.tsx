@@ -1,10 +1,12 @@
+
 import React from 'react';
+import NavBar from './components/navbar';
 
 function App() {
   return (
-    <div >
-      <h2> Novo Projecto</h2>
-    </div>
+    < >
+    <NavBar/>
+    </>
   );
 }
 
