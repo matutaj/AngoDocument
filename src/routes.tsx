@@ -1,13 +1,13 @@
 import {BrowserRouter, Route, Routes} from "react-router-dom"
-import App from "./App";
+import Home from "./pages/main/index"
 
-function MyRoutes(){
+function PageRoute(){
  return(
     <BrowserRouter>
     <Routes>
-    <Route path="/"  Component={App}/>
+       <Route path="/"    Component={Home}/>
     </Routes>
     </BrowserRouter>
  )
 }
-export default MyRoutes;
+export default PageRoute;
