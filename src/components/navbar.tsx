@@ -39,7 +39,7 @@ function NavBar(){
         </AllITem>
            
         </Menu>
-        <Banner title="AngDoment" text="Tecnologia ao seu dispo, faça solicitação de documento Online"/>
+        <Banner title="AngDocument" text="Tecnologia ao seu dispo, faça solicitação de documento Online"/>
         </>
     )
 }
