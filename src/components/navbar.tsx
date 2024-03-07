@@ -1,14 +1,15 @@
 import React, { useState } from "react";
 import { Menu, Item, AllITem } from "./style";
 import { Link } from "react-router-dom";
+import Banner from "./banner"
 
 function NavBar(){
-
+    const logo ="https://th.bing.com/th/id/OIP.ebBPNI9s-oZiXztIlK6PyAAAAA?rs=1&pid=ImgDetMain"
    
     return(
         <>
         <Menu>
-            <img src="https://th.bing.com/th/id/OIP.ebBPNI9s-oZiXztIlK6PyAAAAA?rs=1&pid=ImgDetMain" alt="" />
+            <img src={logo} alt="" />
         <AllITem>
         <Item>
                 <Link to="/">Home</Link>
@@ -38,6 +39,7 @@ function NavBar(){
         </AllITem>
            
         </Menu>
+        <Banner title="AngDoment" text="Tecnologia ao seu dispo, faça solicitação de documento Online"/>
         </>
     )
 }
