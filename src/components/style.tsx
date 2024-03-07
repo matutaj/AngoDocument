@@ -15,9 +15,25 @@ img{
 export const AllITem =styled.div`
 display:flex;
 flex-direction: row;
-justify-content: space-around;
+justify-content: center;
 align-items: center;
 width: 100%;
+button{
+    padding: 4px;
+    font-size: 15px;
+    margin: 0 20px;
+    border-radius: 10px;
+    width: 90px;
+    border: none;
+    color:#155e9d;
+}
+button:hover{
+  
+    background: none ;
+    border:  1px solid  #fdfeff;
+    color: #fdfeff;
+
+}
 `;
 export const Item = styled.li`
 
@@ -26,5 +42,6 @@ a{
     color: white;
 }
 list-style: none;
-font-size: 18px;
+font-size: 15px;
+margin: 0 30px;
 `

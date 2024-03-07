@@ -25,15 +25,15 @@ function NavBar(){
                 
             </Item>
 
-            <Item>
-            <Link to="/">Cadastro</Link>
+            <button>
+            Cadastro
                 
-            </Item>
+            </button>
 
-            <Item>
-            <Link to="/">Login</Link>
+            <button>
+            Login
                 
-            </Item>
+            </button>
 
         </AllITem>
            
