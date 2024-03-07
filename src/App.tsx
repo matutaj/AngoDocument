@@ -1,11 +1,13 @@
 
 import React from 'react';
-import NavBar from './components/navbar';
+import GlobalStyle from "./styles/global"
+import Routes from "./routes"
 
 function App() {
   return (
     < >
-    <NavBar/>
+      <Routes/>
+      <GlobalStyle/>
     </>
   );
 }
