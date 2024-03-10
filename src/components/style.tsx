@@ -37,7 +37,12 @@ button{
 
 }
 }
+input{
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
 
+}
 `;
 export const Item = styled.li`
 
@@ -70,3 +75,33 @@ export const BackgroundBanner= styled.div`
     }
 `
     
+export const Render= styled.div<{}>`
+position: absolute;
+top: 50px;
+right: 0px;
+display: flex;
+flex-direction: column;
+align-items: start;
+justify-content: start;
+width: 500px;
+height: 800px;
+color: aliceblue;
+background:linear-gradient(rgba(33, 68, 224, 0.75), rgba(40, 107, 231, 0.75)) ;
+div{
+    font-size: 20px;
+    padding: 30px;
+    border-bottom: 1px solid #c0c0c075;
+    width: 400px;
+  list-style: none;
+  span{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+}
+  p{
+    font-size: 12px;
+    margin: 5px 0;
+  }
+}
+
+`
