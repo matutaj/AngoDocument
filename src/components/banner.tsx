@@ -17,7 +17,7 @@ function Banner( {title, text}:IDataBanner){
             <h1>{title}</h1>
             <p>{text}</p>
             <br/>
-            <Button title="Agendar Agora!" />
+            <Button title="Solicitar Agora!" />
         </BackgroundBanner>
     )
 }

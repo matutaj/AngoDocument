@@ -5,7 +5,7 @@ display:flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: center;
-background-color: #2b8bde;
+background-color: #fcfcfc;
 height: 50px;
 
 img{
@@ -27,13 +27,14 @@ button{
     border-radius: 10px;
     width: 90px;
     border: none;
-    color:#155e9d;
+    color:#f8f8f8;
+    background-color: #eb4351;
 
    &:hover{
   
   background: none ;
-  border:  1px solid  #fdfeff;
-  color: #fdfeff;
+  border:  1px solid  #e6535f;
+  color: #2a455e;
 
 }
 }
@@ -41,6 +42,8 @@ input{
     padding: 5px;
     border: none;
     border-radius: 10px;
+    width: 200px;
+    border-bottom: 1px solid #f1747f;
 
 }
 `;
@@ -48,7 +51,7 @@ export const Item = styled.li`
 
 a{
     text-decoration: none;
-    color: white;
+    color: #0c0202;
 }
 list-style: none;
 font-size: 15px;

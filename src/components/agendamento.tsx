@@ -7,7 +7,7 @@ import  styled from "styled-components"
 export const Appcontainer = styled.div`
 position: absolute;
 top: 50px;
-background:linear-gradient(rgba(138, 153, 206, 0.50), rgba(30, 68, 138, 0.75)) ;
+background:#2a455e ;
 height: 100%;
   width: 100%;
   display: flex;
@@ -23,18 +23,16 @@ const GoodForm = () => {
     formState: { errors },
   } = useForm();
 
-  const watchPassword = watch("password");
 
   const onSubmit = (data) => {
     alert(JSON.stringify(data));
   };
 
-  console.log("RENDER");
 
   return (
     <Appcontainer>
       <div className="form-group">
-        <label>Name</label>
+        <label>Nome</label>
         <input
           className={errors?.name && "input-error"}
           type="text"

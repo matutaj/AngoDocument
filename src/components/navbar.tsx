@@ -9,7 +9,7 @@ const ListarBI=[
     {
         id:1,
         bi:"872348734AL0890",
-        nome:"Ângelo Kamussumbo",
+        nome:"Agencia de Talatona",
         data:"12-09-1999",
         morada:"Luanda/Viana-Zona Verde",
         filiacao:"José Kamussumbo",
@@ -21,7 +21,7 @@ const ListarBI=[
     {
         id:2,
         bi:"9839850734AL0890",
-        nome:"Matuta Jorge",
+        nome:"Agencia de Viana",
         data:"12-09-1999",
         morada:"Luanda/Viana-Estalagem",
         filiacao:"Virgílio Mendes",
@@ -32,7 +32,7 @@ const ListarBI=[
     {
         id:3,
         bi:"764685494AL0890",
-        nome:"Bruno da Silva",
+        nome:"Agencia de Cacuaco",
         data:"12-09-1999",
         morada:"Luanda/Rangel-Dona Mália",
         filiacao:"José da Silva",
@@ -43,7 +43,7 @@ const ListarBI=[
     {
         id:4,
         bi: "345743324AL0890",
-        nome:"Emanuel André",
+        nome:"Agencia da Mutamba",
         data:"12-09-1999",
         morada:"Luanda/Sambizanga",
         filiacao:"José André",
@@ -54,7 +54,7 @@ const ListarBI=[
      {
         id:5,
         bi:  "74356746AL0890",
-        nome:"Sadraque Vence",
+        nome:"Agencia do Cazenga",
         data:"12-09-1999",
         morada:"Luanda/Viana-Estalagem",
         filiacao:"José Vence",
@@ -67,7 +67,7 @@ const ListarBI=[
 
 function NavBar(){
     const [busca, setBusca] = useState('')
-    const filtroBI = ListarBI.filter((bilhete)=> bilhete.bi.includes(busca.toLocaleLowerCase()))
+    const filtroBI = ListarBI.filter((bilhete)=> bilhete.nome.includes(busca.toLocaleLowerCase()))
 
     const logo ="https://th.bing.com/th/id/OIP.ebBPNI9s-oZiXztIlK6PyAAAAA?rs=1&pid=ImgDetMain"
    
@@ -92,13 +92,13 @@ function NavBar(){
             </Item>
 
             <button>
-            Agendar
+            Solicitar
                 
             </button>
 
             <input
              type="text"
-              placeholder="Pesquisar Pelo BI" 
+              placeholder="Pesquisar Agente certificado" 
               value={busca}
               onChange={(ev)=> setBusca(ev.target.value)} 
             
@@ -108,10 +108,9 @@ function NavBar(){
             {filtroBI.map((item)=>(
                 <div>
 
-                <li key={item.id}>BI: {item.bi}</li>
-                <span>Nome:{item.nome}</span>
-                <p>Morada: {item.morada}</p>
-                <p>Data do Agendamento:{item.dataAgedamento}</p>
+                <li key={item.id}>Nome: {item.nome}</li>
+                <p>Local: {item.morada}</p>
+                
                 </div>
             ))}
         </Render>:null}
