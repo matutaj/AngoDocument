@@ -88,6 +88,7 @@ height: 800px;
 color: aliceblue;
 background:linear-gradient(rgba(33, 68, 224, 0.75), rgba(40, 107, 231, 0.75)) ;
 div{
+    cursor: pointer;
     font-size: 20px;
     padding: 30px;
     border-bottom: 1px solid #c0c0c075;

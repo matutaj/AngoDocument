@@ -120,7 +120,7 @@ function NavBar(){
         </Menu>
         <Banner title="AngDocument" text="Tecnologia ao seu dispo, faça solicitação de documento Online"/>
 
-      
+                
         </>
     )
 }

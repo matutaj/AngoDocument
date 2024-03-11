@@ -1,8 +1,7 @@
 import React from "react";
 import NavBar from "../../components/navbar";
-import Element from "../../components/elementRightLeft"
-import styled from "styled-components";
-
+import Element from "../../components/elementRightLeft";
+import Agendamento from "../../components/agendamento";
 
 
 function Home (){
@@ -11,6 +10,7 @@ function Home (){
         <NavBar/>
         <br/>
         <Element/>
+        {/* <Agendamento/> */}
         </>
     )
 }
