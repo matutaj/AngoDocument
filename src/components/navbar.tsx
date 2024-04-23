@@ -115,7 +115,7 @@ function NavBar(){
         </AllITem>
            
         </Menu>
-        <Banner title="AngDocument" text="Tecnologia ao seu dispo, faça solicitação de documento Online"/>
+        <Banner title="AngoDocument" text="Tecnologia ao seu dispo, faça solicitação de documento Online"/>
 
                 
         </>
