@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { Menu, Item, AllITem, Render } from "./style";
 import { Link } from "react-router-dom";
 import Banner from "./banner"
-
 const ListarBI=[
 
 
@@ -69,12 +68,11 @@ function NavBar(){
     const [busca, setBusca] = useState('')
     const filtroBI = ListarBI.filter((bilhete)=> bilhete.nome.includes(busca.toLocaleLowerCase()))
 
-    const logo ="https://th.bing.com/th/id/OIP.ebBPNI9s-oZiXztIlK6PyAAAAA?rs=1&pid=ImgDetMain"
    
     return(
         <>
         <Menu>
-            <img src={logo} alt="" />
+            <img src="./img/OIP.jpg" alt=""  title="Logo da pagina"/>
         <AllITem>
         <Item>
                 <Link to="/">Home</Link>

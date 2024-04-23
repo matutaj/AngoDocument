@@ -58,7 +58,7 @@ font-size: 15px;
 margin: 0 30px;
 `
 export const BackgroundBanner= styled.div`
-    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("https://th.bing.com/th/id/OIF.O0h2AlfnybTmKpX77QKReg?rs=1&pid=ImgDetMain") ;
+    background-image:linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("./img/OIF.jpg") ;
     background-position: center;
     background-size: cover;
     height: 82vh;

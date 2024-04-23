@@ -39,7 +39,6 @@ font-size: 25px;
 `
 
 function RightLeft(){
-    const loja= "https://www.verangola.net/va/images/cms-image-000027955.jpg"
     return(
         <Element>
         <ElementRight>
@@ -52,7 +51,7 @@ function RightLeft(){
         <Button title="Ver Agencias"/>
         </ElementRight>
 
-        <Image src={loja} alt="Ocorreu um erro com a imagem" />
+        <Image src="./img/R.jpg" alt="Ocorreu um erro com a imagem" />
 
        
         </Element>
